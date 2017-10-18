@@ -42,7 +42,7 @@ var DefaultTransportFactory = (function () {
         return this.selected;
     };
     DefaultTransportFactory.detectTransport = function () {
-        if (typeof Response !== "undefined" && Response.prototype.hasOwnProperty("body") && typeof Headers === "function") {
+        if (typeof Response !== "undefined" && typeof Headers === "function") {
             return fetch_1.default;
         }
         if (typeof XMLHttpRequest !== "undefined") {

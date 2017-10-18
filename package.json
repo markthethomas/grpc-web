@@ -1,5 +1,5 @@
 {
-    "name": "grpc-web-client",
+    "name": "react-native-grpc",
     "version": "0.3.1",
     "description": "gRPC-Web client for browsers (JS/TS)",
     "main": "dist/index.js",
