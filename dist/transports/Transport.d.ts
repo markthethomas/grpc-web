@@ -1,3 +1,4 @@
+import "whatwg-fetch";
 import { Metadata } from "../grpc";
 import fetchRequest from "./fetch";
 import xhrRequest from "./xhr";
